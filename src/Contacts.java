@@ -19,7 +19,7 @@ public class Contacts {
 
         Contact contactToFind = null;
         for (Contact c : contacts) {
-            if (c.age < 30)) {
+            if (c.age < 30) {
                 break;
             } //pos position
         } // for loop

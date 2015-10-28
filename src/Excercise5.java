@@ -21,19 +21,20 @@ public class Excercise5 {
         for (String word : words) {
             if (!newWords.contains(word)) {
                 newWords.add(word);
-        //create a new string without the duplicate words
-            String newSring = " ";
-            for (String newWord : newWords){
-                String newString = "";
-                if (!newString.isEmpty()) {
-                    newString += " ";
+                //create a new string without the duplicate words
+                String newSring = " ";
+                for (String newWord : newWords) {
+                    String newString = "";
+                    if (!newString.isEmpty()) {
+                        newString += " ";
+                    }
+                    newString += newWord;
+                    //to be or not that is the question "look like this"
                 }
-                newString += newWord;
-        //to be or not that is the question "look like this"
+                System.out.println(newSring);
+
+
             }
-            System.out.println(newSring);
-
-
         }
     }
 }
